@@ -5,10 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
+import androidx.navigation.Navigation.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import com.mobileassistant.smartvision.R
-import com.mobileassistant.smartvision.databinding.FragmentHomeBinding
+import com.mobileassistant.buildnblogsmartvision.R
+import com.mobileassistant.buildnblogsmartvision.databinding.FragmentHomeBinding
 import com.mobileassistant.smartvision.model.MenuItem
 
 private const val NO_OF_COLUMNS = 2

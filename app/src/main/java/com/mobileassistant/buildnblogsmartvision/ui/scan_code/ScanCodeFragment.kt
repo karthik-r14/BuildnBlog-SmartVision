@@ -12,11 +12,15 @@ import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.google.android.gms.vision.CameraSource
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
+import com.mobileassistant.buildnblogsmartvision.databinding.FragmentScanCodeBinding
+import com.mobileassistant.buildnblogsmartvision.mlkit.utils.CameraSourcePreview
+import com.mobileassistant.buildnblogsmartvision.mlkit.utils.GraphicOverlay
 import com.mobileassistant.smartvision.R
 import com.mobileassistant.smartvision.databinding.FragmentScanCodeBinding
 import com.mobileassistant.smartvision.mlkit.barcodescanner.BarcodeScannerProcessor

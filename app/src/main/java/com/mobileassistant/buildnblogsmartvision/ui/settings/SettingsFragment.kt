@@ -15,8 +15,11 @@ import android.widget.RadioGroup
 import android.widget.Spinner
 import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.switchmaterial.SwitchMaterial
+import com.mobileassistant.buildnblogsmartvision.R
+import com.mobileassistant.buildnblogsmartvision.databinding.FragmentSettingsBinding
 import com.mobileassistant.smartvision.R
 import com.mobileassistant.smartvision.databinding.FragmentSettingsBinding
 import com.mobileassistant.smartvision.ui.detect_objects.MODE_DETECT_OBJECTS_POS
